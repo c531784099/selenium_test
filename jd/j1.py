@@ -12,14 +12,12 @@ driver=0
 tdata=None
 htmlsouce=None
 def f1(url1):
-
 	display = Display(visible=0, size=(1200, 1000))
 	display.start()
 	global driver
 	driver=webdriver.Firefox()
 	#she zhi yuan su deng dai 
 	#driver.implicitly_wait(10)
-
 	driver.get(url1)
 	# shi yong  beautiful
 	global htmlsouce
@@ -27,12 +25,9 @@ def f1(url1):
 	#da yin ye mian
 	#print(htmlsouce)
 	soup=BeautifulSoup(htmlsouce,'lxml')
-
 	ss1=soup.select('#cate_item1 > div:nth-child(1) > div:nth-child(2)')
 	for tt1 in ss1:
-		
 		print(tt1)
-
 	onedata()
 	print('cai ji shu ju jie shu ')
 	#guan bi webdriver
@@ -58,8 +53,6 @@ def twodata(sdata1):
 		#dui mei ge yuan su ju jiao
 		print(x.text)
 		time.sleep(2)
-		
-
 		ac.move_to_element_with_offset(x,10,10).perform()		
 		time.sleep(2)
 		#huo huo qu yuan su
@@ -116,7 +109,6 @@ def twodata(sdata1):
 		print('5555555555555555555555555555')		
 		a=a+1	
 		print(a)
-
 if __name__=='__main__':
 	url='https://www.jd.com'
 	f1(url)

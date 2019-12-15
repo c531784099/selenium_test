@@ -27,3 +27,26 @@ bail@chrome://marionette/content/sync.js:237:64
 1576415833777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
 1576415833777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 Exiting due to channel error.
+1576417687503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYkpqro"
+1576417688676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576417688676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576417688677	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576417688677	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576417693323	Marionette	INFO	Listening on port 39825
+1576417693446	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://d.jd.com/lab/get?callback=lab, line 1: SyntaxError: unexpected token: identifier
+1576417705989	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576417714113	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576417714371	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+
+(/usr/lib/firefox/firefox:2999): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (资源暂时不可用) on X server :1001.
+
+
+(/usr/lib/firefox/firefox:3045): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (资源暂时不可用) on X server :1001.
+
+
+(/usr/lib/firefox/firefox:3198): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (资源暂时不可用) on X server :1001.
+
